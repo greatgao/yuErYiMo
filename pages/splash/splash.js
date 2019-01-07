@@ -11,7 +11,7 @@ Page({
     userid: '',
     passwd: '',
     angle: 0,
-    logo: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1088.jpg'
+    logo: 'http://212.64.92.47:8080/caopinyn.JPG'
   },
   onLoad: function(options) {
     var that = this
@@ -55,8 +55,9 @@ Page({
     });
   },
   btnEnter: function() {
-    this.getUser()
-    this.copyFile()
+    this.goHome()
+    //this.getUser()
+    //this.copyFile()
   },
   //进入主页面
   goHome: function() {

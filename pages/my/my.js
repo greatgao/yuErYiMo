@@ -17,7 +17,7 @@ Page({
     showModalStatus: false,
     user_identity: user_identity,
     title_hint: '请填写',
-    logo: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1088.jpg'
+    logo: 'http://212.64.92.47:8080/caopinyn.JPG'
   },
   onLoad: function() {
     console.log('onLoad')

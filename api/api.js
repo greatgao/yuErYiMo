@@ -1,5 +1,5 @@
 //base地址 47.104.198.222
-const host = 'https://pengmaster.com/party/'
+const host = 'http://212.64.92.47:8080/'
 // const host = 'http://localhost:8080/party/'
 const image = host + 'wechat/image/'
 const marry = host + 'wechat/marry/'
