@@ -9,12 +9,12 @@ var bgImg = 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1176.jpg'
  * inviteLongitude:经度
  * inviteLatitude:纬度
  */
-let inviteName = 'Mr.王&Miss.刘'
-let inviteDateOne = '谨定于 2018年8月18日'
-let inviteDateTwo = '农历 2018年七月初八 举办婚礼'
-let inviteAddress = '地址：沧州市盐山县庆云镇前簸箕村(点击导航)'
-let inviteLongitude = 117.398193
-let inviteLatitude = 37.895525
+let inviteName = '阿蛮&念念'
+let inviteDateOne = '谨定于 2019年2月10日'
+let inviteDateTwo = '农历 乙亥年正月初六 举办婚礼'
+let inviteAddress = '地址：安徽省桐城市文昌街道碧峰村西南方向桐国秀水桐城旗舰店(点击导航)'
+let inviteLongitude = 31.0539863836
+let inviteLatitude = 116.9379240274
 
 Page({
   data: {
@@ -104,7 +104,7 @@ Page({
     this.setData({
       showModal: true,
       editId: 'btnName',
-      editName: 'Mr.王 & Miss.刘',
+      editName: '阿蛮&念念',
       isAddress: false
     })
   },
@@ -115,7 +115,7 @@ Page({
     this.setData({
       showModal: true,
       editId: 'btnDateOne',
-      editName: '谨定于 2018年8月18日',
+      editName: '谨定于 2019年2月10日',
       isAddress: false
     })
   },
@@ -126,7 +126,7 @@ Page({
     this.setData({
       showModal: true,
       editId: 'btnDateTwo',
-      editName: '农历 2018年七月初八 举办婚礼',
+      editName: '农历 乙亥年正月初六 举办婚礼',
       isAddress: false
     })
   },
@@ -137,7 +137,7 @@ Page({
     this.setData({
       showModal: true,
       editId: 'btnAddress',
-      editName: '地址：沧州市盐山县庆云镇前簸箕村(点击导航)',
+      editName: '地址：安徽省安庆市桐城市文昌街道碧峰村西南方向桐国秀水桐城旗舰店(点击导航)',
       isAddress: true
     })
   },

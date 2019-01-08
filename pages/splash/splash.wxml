@@ -10,6 +10,7 @@
           <image class="wave" src="{{wave}}" mode="aspectFill"></image>
           <image class="wave wave-bg" src="{{wave}}" mode="aspectFill"></image>
       </view>
+    <text class="tksyu">期待您来参加婚礼</text>
     <button class="confirm-btn" open-type='getUserInfo' bindgetuserinfo='getUserInfo' bindtap="btnEnter">进入婚礼</button>
     </view>
   </block>
